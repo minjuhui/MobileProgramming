@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ウィジェット試験</string>
+    <string name="id">イード</string>
+    <string name="name">名前</string>
+    <string name="desc1">IDを入力してください</string>
+    <string name="desc2">名前を入力してください</string>
+    <string name="input">入力</string>
+</resources>

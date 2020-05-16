@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20170609 민주희"
+        android:textColor="#AD1457"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_bigFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Use Big Font" />
+
+        <RadioGroup
+            android:id="@+id/rgb_colorGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Green"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blue"></RadioButton>
+        </RadioGroup>
+
+        <ToggleButton
+            android:id="@+id/tb_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textOn="선택비활성화"
+            android:textOff="선택활성화"/>
+    </LinearLayout>
+
+
+</LinearLayout>

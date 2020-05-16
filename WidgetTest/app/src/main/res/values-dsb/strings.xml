@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Widget-Test</string>
+    <string name="id">ID</string>
+    <string name="name">NAME</string>
+    <string name="desc1">Bitte geben Sie Ihre ID ein.</string>
+    <string name="desc2">Bitte geben Sie Ihren Namen ein.</string>
+    <string name="input">Eingabem</string>
+</resources>

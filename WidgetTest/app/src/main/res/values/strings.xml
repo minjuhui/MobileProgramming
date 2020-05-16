@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WidgetTest</string>
+    <string name="id">ID</string>
+    <string name="name">NAME</string>
+    <string name="desc1">Please, Enter Your ID</string>
+    <string name="desc2">Please, Enter Your Name</string>
+    <string name="input">INPUT</string>
+</resources>

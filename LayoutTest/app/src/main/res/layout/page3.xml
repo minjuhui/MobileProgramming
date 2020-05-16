@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5BA9DF"
+    android:orientation="vertical"
+    android:id="@+id/page3">
+
+    <TextView
+        android:id="@+id/page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20170609 민주희" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="세번째페이지"
+        android:textColor="#FFD600"
+        android:textColorHighlight="#304FFE"
+        android:textSize="36sp" />
+</LinearLayout>
